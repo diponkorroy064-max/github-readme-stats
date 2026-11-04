@@ -14,3 +14,12 @@ vercel_token
 *.code-workspace
 
 .vercel
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
